@@ -1,0 +1,98 @@
+{
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.minimap.enabled": false,
+    "rust-analyzer.check.command": "clippy",
+    "editor.codeLens": false,
+    "editor.semanticHighlighting.enabled": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.highlighting.semanticTokens": false,
+    "rust-analyzer.codelens.enable": false,
+    "rust-analyzer.codelens.run": false,
+    "rust-analyzer.codelens.references": false,
+    "rust-analyzer.codelens.implementations": false,
+    "rust-analyzer.inlayHints.typeHints": false,
+    "rust-analyzer.inlayHints.parameterHints": false,
+    "rust-analyzer.inlayHints.chainingHints": false,
+    "rust-analyzer.inlayHints.maxLength": 25,
+    "lldb.prettyPrinters": true,
+    "rust-analyzer.hoverActions.enable": true,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    },
+    "git.enableSmartCommit": true,
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "onHover",
+    "workbench.colorCustomizations": {
+        "[Default Dark Modern], [Nord]": {
+            /* === MAIN SURFACES === */
+            "editor.background": "#242933",
+            "sideBar.background": "#242933",
+            "panel.background": "#242933",
+            "activityBar.background": "#242933",
+            "editorGroupHeader.tabsBackground": "#242933",
+            "tab.activeBackground": "#242933",
+            /* === SECONDARY SURFACES (slightly lighter) === */
+            "tab.inactiveBackground": "#2A303C",
+            "editorGroupHeader.noTabsBackground": "#242933",
+            "titleBar.activeBackground": "#242933",
+            "titleBar.inactiveBackground": "#242933",
+            /* === PANEL / EDITOR BORDERS === */
+            "editorGroup.border": "#1E222A",
+            "panel.border": "#1E222A",
+            "sideBar.border": "#1E222A",
+            "activityBar.border": "#1E222A",
+            /* === LISTS (selection colors) === */
+            "list.activeSelectionBackground": "#2A303C",
+            "list.hoverBackground": "#2A303C",
+            "list.inactiveSelectionBackground": "#2A303C",
+            /* === SCROLLBAR (important for visual clarity) === */
+            "scrollbar.shadow": "#00000000",
+            "scrollbarSlider.background": "#4C566A55",
+            "scrollbarSlider.hoverBackground": "#4C566A88",
+            "scrollbarSlider.activeBackground": "#5E81ACAA",
+            /* === STATUS BAR === */
+            "statusBar.background": "#242933",
+            "statusBar.noFolderBackground": "#242933",
+            "statusBar.debuggingBackground": "#2A303C",
+            /* === INPUT / DROPDOWN === */
+            "input.background": "#2A303C",
+            "dropdown.background": "#2A303C",
+            /* === FOCUS / OUTLINE === */
+            "focusBorder": "#00000000",
+            /* === LINE NUMBERS / GUTTER === */
+            "editorGutter.background": "#242933",
+            "editorLineNumber.foreground": "#4C566A",
+            "editorLineNumber.activeForeground": "#88C0D0",
+            /* === PANEL / VIEW HEADER === */
+            "sideBarSectionHeader.background": "#242933",
+            "sideBarSectionHeader.foreground": "#D8DEE9",
+            /* === TAB HEADER BORDER === */
+            "editorGroupHeader.tabsBorder": "#1E222A",
+            "breadcrumb.background": "#242933",
+            /* === SIDE BAR LIST SELECTION FIX === */
+            "list.activeSelectionForeground": "#ECEFF4",
+            "list.inactiveSelectionForeground": "#D8DEE9",
+            "list.hoverForeground": "#ECEFF4",
+            /* === SELECTION BACKGROUND === */
+            "list.focusBackground": "#2A303C",
+            "list.inactiveFocusBackground": "#2A303C",
+            /* === TERMINAL === */
+            "terminal.background": "#242933",
+            "terminal.foreground": "#D8DEE9",
+            "terminalCursor.background": "#D8DEE9",
+            "terminalCursor.foreground": "#88C0D0",
+            "terminal.selectionBackground": "#2A303C",
+            /* === CURSOR LINE (disable highlight but keep border) === */
+            //"editor.selectionBackground": "#2A303C",
+            "editor.lineHighlightBackground": "#00000000",
+            "editor.lineHighlightBorder": "#2A303C",
+            /* === OPTIONAL: breakpoint color (commented out) === */
+            "debugIcon.breakpointForeground": "#4dffbb",
+            "editor.foldBackground": "#00000000",
+        }
+    },
+    "workbench.colorTheme": "Nord",
+    "git.autofetch": true,
+}
